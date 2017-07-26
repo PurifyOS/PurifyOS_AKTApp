@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">AKT App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">AKTApp by PurifyOS</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info">Informazioni</string>
+    <string name="large_text">
+        "Com'è nata AKTApp?\n\n"
+
+        "AKTApp inizialmente è stata ideata per risolvere il problema della manca acquisizione dei permessi di root con Magisk.\n\n"
+        "Da grande sostenitore di Magisk (e oppositore SuperSU) non potevo tollerare che gli utenti con installato Magisk dovessero compiere &quot;strane&quot; procedure per utilizzare &quot;AKT Profiles App&quot; creata da mrcigi @XDA \n\n"
+        "La prima idea fu quella di modificare il sorgente di AKT Profiles App per risolvere il problema.. Purtroppo la suddetta App non è opensource, quindi legalmente non si ha accesso al sorgente \n\n"
+        "Allora ho iniziato a sviluppare da zero la MIA applicazione per applicare comodamente i profili AKT, così è nata AKTApp! Un applicazione completamente opensource distribuita con la licenza libera GNU GPLv3 .\n\n"
+
+        "Perchè utilizzare questa applicazione?\n\n "
+
+        "Per tre semplici motivi: \n\n"
+
+        "  - L'applicazione è completamente Opensource \n\n"
+        "  - Funziona correttamente su Magisk\n\n"
+        "  - L'applicazione è al 100% systemless\n\n"
+    </string>
+    <string name="profile_text">&#160;&#160;Profilo:&#160;&#160;</string>
+    <string name="profile_finish">&#160;&#160;</string>
+    <string name="tost_noroot">Errore nei permessi di Root! Root non presente oppure app non autorizzata!</string>
+    <string name="text_errornoroot">&#160;&#160;Errore permessi di Root!&#160;&#160;</string>
+    <string name="textshell">su -c cat /magisk/AKT/system/etc/current</string>
+    <string name="site_purify">http://purifyos.it</string>
+    <string name="group_purify">https://t.me/joinchat/CW9A6UElyu6BR5kTpeE1Rg</string>
+    <string name="channel_purify">http://t.me/purifychannel</string>
+    <string name="toast_wait">Attendere..</string>
+    <string name="ghosh_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/ghost > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="permakt_shell">su -c chmod 777 /magisk/AKT/system/etc/AKT/akt</string>
+    <string name="execakt_shell">su -c sh /magisk/AKT/system/etc/AKT/akt</string>
+    <string name="fusionbalanced_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/fusionbalanced > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="namelessbalanced_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/namelessbalanced > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="hawk_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/hawk > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="zhanabalanced_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/zhanabalanced > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="xhanabalanced_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/xhanabalanced > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="reboot_title">Applica le impostazioni</string>
+    <string name="reboot_message">Riavvia il sistema per applicare le impostazioni, il primo avvio sarà più lento</string>
+    <string name="reboot_positivebutton">Riavvia</string>
+    <string name="reboot_shell">su -c reboot</string>
+    <string name="reboot_negativebutton">No riavviare adesso</string>
+    <string name="ok_title">Gestione profili</string>
+    <string name="ok_message">Profilo applicato!
+        Grazie di aver usato AKT App!</string>
+    <string name="ok_positivebutton">OK</string>
+    <string name="ok_profile"><![CDATA[su -c cat /data/system/current_profile > /magisk/AKT/system/etc/current]]></string>
+    <string name="ok_log">su -c echo OK</string>
+    <string name="e">su -c sh /magisk/AKT/system/etc/AKT/akt</string>
+    <string name="zhbattery_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/zhbattery > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="namelessbattery_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/namelessbattery > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="fair_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/fair > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="fconservative_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/fconservative > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="xhana_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/xhana > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="xhanabattery"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/xhanabattery > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="bp4_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/bp4 > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="namelessperformance_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/namelessperformance > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="fusionperformance_shell"><![CDATA[su -c cat /magisk/AKT/system/etc/AKT/fusionperformance > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="ghost_pepper_by_asiier">  Ghost Pepper by @Asiier</string>
+    <string name="fusion_balanced_by_patalao">  Fusion Balanced by @Patalao</string>
+    <string name="nameless_balanced_by_n_senthil360">  Nameless Balanced by
+        @Senthil360</string>
+    <string name="hawkpepper_by_asiier">  HawkPepper by @Asiier</string>
+    <string name="project_zhana_balanced_by_asiier">  Project Zhana Balanced by @Asiier</string>
+    <string name="project_x_a_n_a_balanced_by_n_asiier">  Project X.A.N.A Balanced by
+        @Asiier</string>
+    <string name="nota"> Nota:
+        I profili collocati in alto permettono di ottenere
+        maggiori performance, consumando più batteria
+        Mentre i profili in basso consumano meno batteria,
+        abbassando le prestazioni</string>
+    <string name="project_zhana_battery_by_asiier">  Project Zhana Battery by @Asiier</string>
+    <string name="nameless_battery_by_senthil360">  Nameless Battery by @Senthil360</string>
+    <string name="fair_park_by_asiier">  Fair Park by @Asiier</string>
+    <string name="fusion_conservative_by_patalao">  Fusion Conservative by @patalao</string>
+    <string name="project_x_a_n_a_battery_by_asiier">  Project X.A.N.A Battery by @Asiier</string>
+    <string name="project_x_a_n_a_battery_extreme_by_n_asiier">  Project X.A.N.A Battery Extreme by
+        @Asiier</string>
+    <string name="burnout_pr4_by_mostafa_wael">  Burnout PR4 by @Mostafa Wael</string>
+    <string name="nameless_performance_by_n_senthil360">  Nameless Performance by   @Senthil360</string>
+    <string name="fusion_performance_by_patalao">  Fusion Performance by @Patalao</string>
+    <string name="nota2">Attenzione:
+        Il profilo "Burnout PR4" può causare problemi di
+        instabilità, soprattutto sulla OxygenOS</string>
+    <string name="default_text">  Profilo attuale: Nessuno  </string>
+    <string name="none">none</string>
+    <string name="profili_performance">Profili performance</string>
+    <string name="profili_bilanciati">Profili bilanciati</string>
+    <string name="profili_batteria">Profili batteria</string>
+    <string name="informazioni">Informazioni</string>
+    <string name="sito_ufficiale">Sito Ufficiale</string>
+    <string name="community_telegram_ufficiale">Community Telegram Ufficiale</string>
+    <string name="canale_telegram_ufficiale">Canale Telegram Ufficiale</string>
+    <string name="disable_del"><![CDATA[su -c echo > /magisk/AKT/system/etc/AKT/akt]]></string>
+    <string name="disable_unperm">su -c chmod 644 /magisk/AKT/system/etc/AKT/akt</string>
+    <string name="disable_permexec">su -c chmod 777 /magisk/AKT/system/etc/AKT/Stock</string>
+    <string name="disable_exec">su -c sh /magisk/AKT/system/etc/AKT/Stock</string>
+    <string name="disable_unpermexec">su -c chmod 644 /magisk/AKT/system/etc/AKT/Stock</string>
+    <string name="disabilita_i_profili">Disabilita i profili</string>
+    <string name="ok_title_disable">Disabilitazione profili</string>
+    <string name="ok_message_disable">Vuoi disabilitare i profili AKT? Attenzione è consigliato riavviare dopo questa operazione!</string>
+    <string name="akt_app">AKT App</string>
+    <string name="purify_os_team">Purify OS Team</string>
+
+</resources>

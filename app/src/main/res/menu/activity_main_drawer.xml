@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_profile"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_performance"
+            android:icon="@drawable/ic_performance"
+            android:title="@string/profili_performance" />
+        <item
+            android:id="@+id/nav_balanced"
+            android:icon="@drawable/ic_balanced"
+            android:title="@string/profili_bilanciati" />
+        <item
+            android:id="@+id/nav_battery"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/profili_batteria" />
+        <item
+            android:id="@+id/nav_disable"
+            android:icon="@drawable/ic_disable"
+            android:title="@string/disabilita_i_profili" />
+    </group>
+    <group android:id="@+id/group_info"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/informazioni" />
+        <item
+            android:id="@+id/nav_site"
+            android:icon="@drawable/ic_telegram"
+            android:title="@string/sito_ufficiale" />
+
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_telegram"
+            android:title="@string/community_telegram_ufficiale" />
+        <item
+            android:id="@+id/nav_channel"
+            android:icon="@drawable/ic_telegram"
+            android:title="@string/canale_telegram_ufficiale" />
+
+    </group>
+
+</menu>

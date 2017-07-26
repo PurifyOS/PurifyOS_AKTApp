@@ -1,0 +1,110 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/zhbattery"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-medium"
+                android:drawableStart="@drawable/ic_003"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="start|center_vertical"
+                android:text="@string/project_zhana_battery_by_asiier" />
+            <Button
+                android:id="@+id/namelessbattery"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-medium"
+                android:drawableStart="@drawable/ic_002"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="start|center_vertical"
+                android:text="@string/nameless_battery_by_senthil360" />
+            <Button
+                android:id="@+id/fair"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-medium"
+                android:drawableStart="@drawable/ic_002"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="start|center_vertical"
+                android:text="@string/fair_park_by_asiier" />
+            <Button
+                android:id="@+id/fconservative"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-medium"
+                android:drawableStart="@drawable/ic_002"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="start|center_vertical"
+                android:text="@string/fusion_conservative_by_patalao" />
+            <Button
+                android:id="@+id/xhana"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-medium"
+                android:drawableStart="@drawable/ic_001"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="start|center_vertical"
+                android:text="@string/project_x_a_n_a_battery_by_asiier" />
+            <Button
+                android:id="@+id/xhanabattery"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-medium"
+                android:drawableStart="@drawable/ic_001"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="start|center_vertical"
+                android:text="@string/project_x_a_n_a_battery_extreme_by_n_asiier" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#00000000" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/frame"
+                android:text="@string/nota" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
